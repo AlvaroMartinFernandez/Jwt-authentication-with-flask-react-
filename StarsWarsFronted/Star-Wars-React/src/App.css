@@ -1,0 +1,9 @@
+body{
+  background-image: url(./assets/universe.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  color: white;
+}

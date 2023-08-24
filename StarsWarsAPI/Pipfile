@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+flask-swagger-ui = "*"
+marshmallow = "*"
+flask-marshmallow = "*"
+password-validator = "*"
+validate-email = "*"
+bcrypt = "*"
+flask-jwt-extended = "*"
+flask-bcrypt = "*"
+flask-cors = "*"
+pip = "*"
+install = "*"
+apscheduler = "*"
+beautifulsoup4 = "*"
+cloudinary = "*"
+openai = "*"
+from = "*"
+import = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+start = "python src/app.py"
